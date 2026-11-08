@@ -1,0 +1,21 @@
+[project]
+name = "agentic-ai-learning"
+version = "0.8.0"
+description = "Hands-on curriculum: from agent fundamentals to production-grade agentic systems"
+requires-python = ">=3.14"
+
+# Direct runtime dependencies, pinned EXACTLY (like fixed versions in a pom.xml).
+# A changed SDK version can change agent behavior, so upgrades must be deliberate, reviewed commits.
+dependencies = [
+    "google-genai==2.29.0",
+    "mcp==2.3.0",
+    "pydantic==2.13.5",
+    "python-dotenv==1.2.4",
+]
+
+[dependency-groups]
+# Tooling used during development only (installed in Lesson 8.3).
+dev = [
+    "pytest",
+    "ruff",
+]

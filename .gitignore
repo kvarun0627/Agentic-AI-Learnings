@@ -1,0 +1,20 @@
+# --- Secrets: NEVER commit (they stay in git history forever once committed) ---
+.env
+.env.*
+
+# --- Environments: rebuilt from pyproject.toml / uv.lock, never copied ---
+.venv/
+
+# --- Runtime state: databases are data, not source ---
+*.db
+*.db-journal
+*.sqlite3
+
+# --- Python caches ---
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# --- Editor ---
+.vscode/
