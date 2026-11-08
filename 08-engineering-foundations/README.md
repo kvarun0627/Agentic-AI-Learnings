@@ -97,4 +97,9 @@ Run each step with `! <command>` in Claude Code or in your own terminal, from `D
 
 _(Fill in after doing the exercise.)_
 
--
+- SDK with read tool name , function docstrings , function argument into a schema and send it to LLM , changing anything in this will change how the LLM responds. but a local varial is not read by LLM , it stays within the code so changing it does not change the output.
+
+- No the key is not safe any can go thorough the git history and look into the key which raises security concerns. we need to revoke the push history and terminate the key to stay safe.
+
+
+
