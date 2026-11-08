@@ -4,7 +4,7 @@ Phases 1–7 taught how agents work. This phase sets up the ground that every la
 
 | Lesson | Topic | Status |
 | :--- | :--- | :--- |
-| **8.1** | Reproducibility: version control and pinned dependencies | In Progress |
+| **8.1** | Reproducibility: version control and pinned dependencies | ✅ Done |
 | **8.2** | A shared LLM gateway: one place where every model call goes | Not Started |
 | **8.3** | Dependency injection and testing agents with a fake LLM | Not Started |
 

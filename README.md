@@ -84,3 +84,4 @@ A practical, project-based curriculum designed for backend engineers transitioni
 
 - **2026-11-05: Production-readiness review of phases 1–7.** Gaps found: no git, no dependency manifest, zero tests/evals, scripted fallbacks hiding LLM failures (`06/03`), in-process `exec()` of LLM code, a `startswith("SELECT")` read-only check, no prompt-injection defense, unbounded context growth, `print()` logging. Part II roadmap created.
 - **2026-11-05: Phase 8 / Lesson 8.1 started.** Reproducibility: version control and pinned dependencies (`08-engineering-foundations/README.md`).
+- **2026-11-08: Lesson 8.1 completed.** Repo under git and pushed to GitHub; `uv.lock` committed. Experiment: changing only the `restart_pod` docstring stopped a max-step runaway loop, which shows prompts and tool descriptions are code. Learned: a leaked key must be revoked first; rewriting history comes second.
